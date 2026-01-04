@@ -9,7 +9,26 @@
 /* @media (min-width: 1280px) {} */
 /* 2 extra large*/
 /* @media (min-width: 1536px) {} */
-
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    background-color: var(--clr-indigo);
+    color: var(--clr-light-gray);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(26, 1, 216, 0.5),
+    0 6px 6px rgba(26, 1, 216, 0.5),
+    0 0 100px -10px var(--clr-indigo);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(26, 1, 216, 0.25),
+    0 10px 10px rgba(26, 1, 216, 0.22),
+    0 0 120px -10px var(--clr-indigo);
+}
 .container {
     width: 100%;
     margin-right: auto;

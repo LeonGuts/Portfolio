@@ -29,7 +29,7 @@
         text-decoration: none;
         font-weight: 600;
         color: var(--clr-light-gray-blue);
-        letter-spacing: -0.05rem;
+        letter-spacing: 0.05rem;
         transition: color 0.3s;
     }
     .header_link:hover {
