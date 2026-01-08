@@ -68,3 +68,8 @@ a {
 strong {
     color: var(--clr-indigo);
 }
+
+main div {
+    margin: auto;
+    padding: 0 1rem;
+}

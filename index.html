@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
-    <link href="/styles/modern-normalize.css" rel="stylesheet">
-    <link href="/styles/style.css" rel="stylesheet">
-    <link href="/styles/components/header.css" rel="stylesheet">
-    <link href="/styles/components/hero.css" rel="stylesheet">
-    <link href="/styles/components/about.css" rel="stylesheet">
-    <link href="/styles/utils.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap">
+    <link rel="stylesheet" href="/styles/modern-normalize.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/components/header.css">
+    <link rel="stylesheet" href="/styles/components/hero.css">
+    <link rel="stylesheet" href="/styles/components/about.css" >
+    <link rel="stylesheet" href="/styles/components/projects.css">
+    <link rel="stylesheet" href="/styles/utils.css"> 
     <title>Leonid Gutsev, Frontend-developer</title>
 </head>
 <body>
@@ -35,17 +36,18 @@
                 <li>
                     <a class="header_resume btn" href="#">Resume PDF</a>
                 </li>
-                <li>
-                    <button class="header_bars">
-                    <svg width="24px" height="24px" viewBox="-0.12 -0.12 12.24 12.24" id="meteor-icon-kit__regular-bars-s" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.18"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.85714 2C0.38376 2 0 1.55228 0 1C0 0.44772 0.38376 0 0.85714 0H11.1429C11.6162 0 12 0.44772 12 1C12 1.55228 11.6162 2 11.1429 2H0.85714zM0.85714 6C0.38376 6 0 5.5523 0 5C0 4.4477 0.38376 4 0.85714 4H11.1429C11.6162 4 12 4.4477 12 5C12 5.5523 11.6162 6 11.1429 6H0.85714zM0.85714 10C0.38376 10 0 9.5523 0 9C0 8.4477 0.38376 8 0.85714 8H11.1429C11.6162 8 12 8.4477 12 9C12 9.5523 11.6162 10 11.1429 10H0.85714z" fill="#758CA3"></path></g></svg>
-                    </button>
-                </li>
             </ul>
+            <button class="header_bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        </button>
         </nav>
+        
     </header>
 
     <main>
-        <section class="hero conteiner">
+        <section class="hero conteiner section">
             <img class="hero_img" src="./images/hero_photo.jpg" alt="hero_photo">
             <h1 class="hero_title">Hi, I'm Leonid 👋</h1>
             <h2 class="hero_subtitle">FRONT-END <br>WEB DEVELOPER.</h2>
@@ -56,17 +58,22 @@
             </p>
             <a class="hero_btn btn" href="#">Reach out</a>
         </section>
-        <section class="about container">
+        <section class="about container section">
             <div class="about_content">
                 <h2 class="about_title">About</h2>
                 <p class="about-description">
-                    Hello there! I'm Leo, a <strong> Frontend </strong> web developer based in Minsk.
-                    I wake up in the morning, grab a cup of coffee, open my laptop and build things
-                    that live on the web all day, everyday.
+                    Hello there! I'm Leonid, a <strong> Frontend </strong> web developer based in Minsk.
+                    Having discovered web development, I realized that this is exactly what I want to do in life.
                 </p>
+                <p class="about_description">
+                    Before that, I tried my hand at other IT fields:
+                </p>
+                <ul class="about_experience">
+                    <li class="about_list">Manual QA Engineer | 3 month internship</li>
+                    <li class="about_list">Backend Java developer | 3 month internship</li>
+                </ul>
                 <p class="about-description">
-                    People who know me say I'm obsessed, that's fair, I am very driven
-                    and love learning new things.
+                    Now I'm actively learning every day and dream of starting a <strong>Fronted</strong> web developer full-time job.
                 </p>
                 <hr class="about_hr">
                 <h3 class="about_subtitle">Technologies</h3>
@@ -74,7 +81,7 @@
                     <ul class="about_ul">
                         <li class="about_list">Javascript (ES6+)</li>
                         <li class="about_list">CSS</li>
-                        <li class="about_list">HTML</li>
+                        <li class="about_list">HTML5</li>
                     </ul>
                     <ul class="about_ul">
                         <li class="about_list">ReactJS</li>
@@ -84,8 +91,70 @@
                 </div>
             </div>
         </section>
-        <section class="projects_section">
+        <section class="projects container section">
+            <div class="projects_title_wrapper">
+                <h2 class="projects_title">Projects</h2>
+                <a class="projects_link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                </svg>
+                </a>
+            </div>
+            <div class="all_projects_wrapper">
 
+                <!-- Project 1 -->
+                
+                <h3 class="project_name">Project name №1</h3>
+                 <div class="project_img_wrapper project_image1">
+                    <img class="project_img" src="/images/empty img.png" alt="empty img">
+                 </div>
+                 <div class="project_description_wrapper project_content1">
+                    <h3 class="project_subname">Project №1</h3>
+                     <p class="project_description1">Description 1</p>
+                     <p class="project_description2">Description 2</p>
+                     <a class="project_btn btn" href="#">Website</a>
+                 </div>
+                
+                  
+                <!-- Project 2 -->
+                
+                <h3 class="project_name">Project name №2</h3>
+                 <div class="project_img_wrapper project_image2">
+                    <img class="project_img" src="/images/empty img.png" alt="empty img">
+                 </div>
+                 <div class="project_description_wrapper project_content2">
+                    <h3 class="project_subname">Project №2</h3>
+                 <p class="project_description1">Description 1</p>
+                 <p class="project_description2">Description 2</p>
+                 <a class="project_btn btn" href="#">Website</a>
+                </div>
+    
+                <!-- Project 3 -->
+                
+                <h3 class="project_name">Project name №3</h3>
+                 <div class="project_img_wrapper project_image3">
+                    <img class="project_img" src="/images/empty img.png" alt="empty img">
+                 </div>
+                 <div class="project_description_wrapper project_content3">
+                    <h3 class="project_subname">Project №3</h3>
+                 <p class="project_description1">Description 1</p>
+                 <p class="project_description2">Description 2</p>
+                 <a class="project_btn btn" href="#">Website</a>
+                </div>
+    
+                <!-- Project 4 -->
+                
+                <h3 class="project_name">Project name №4</h3>
+                 <div class="project_img_wrapper project_image4">
+                    <img class="project_img" src="/images/empty img.png" alt="empty img">
+                 </div>
+                 <div class="project_description_wrapper project_content4">
+                    <h3 class="project_subname">Project №4</h3>
+                 <p class="project_description1">Description 1</p>
+                 <p class="project_description2">Description 2</p>
+                 <a class="project_btn btn" href="#">Website</a>
+                </div>
+            </div>
         </section>
         <section class="contacts_section">
 

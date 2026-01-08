@@ -9,10 +9,11 @@
     display: none;
 }
  .header_bars {
-    color: var(--clr-gray-blue);
+    display: block;
+    color: var(--clr-light-gray-blue);
     width: var(--size-2xl);
     height: var(--size-2xl);
-    display: block;
+
  }
 
  @media (min-width: 768px) {
@@ -23,7 +24,6 @@
         padding: 0;
         gap: 2rem;
     }
-
     .header_link {
         font-size: var(--size-xs);
         text-decoration: none;
@@ -40,7 +40,7 @@
         padding-top: 1.5em;
     }
     .header_sun {
-        display: block;
+        display: flex;
         width: var(--size-base);
         height: var(--size-base);
     }
@@ -64,11 +64,12 @@
         gap: 2em;
     }
     .header_link {
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
     }
     .header_sun {
-        width: var(--size-xl);
-        height: var(--size-xl);
+        display: flex;
+        width: var(--size-2xl);
+        height: var(--size-2xl);
     }
     .header_resume {
         font-size: var(--size-sm);
