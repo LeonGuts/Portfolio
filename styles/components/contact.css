@@ -1,4 +1,4 @@
-.contacts {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +22,7 @@
 
 
 @media (min-width: 475px) {
-    .contacts {
+    .contact {
         gap: 1.5rem;
     }
     .contact_title {
@@ -55,7 +55,7 @@
 }
 /* 2 extra large*/
 @media (min-width: 1536px) {
-    .contacts {
+    .contact {
         gap: 2rem;
     }
     .contact_title {

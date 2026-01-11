@@ -1,12 +1,12 @@
 :root {
     /* Dark mode */
-    --clr-dark-blue: #0a192f; /* main color */
-    --clr-blue-gray: #112240; /* secondary color */
+    --clr-dark-blue: #07234d; /* main color */
+    --clr-blue-gray: #183c7a; /* secondary color */
     --clr-cyanic: #64ffda; /* accented color */
-    --clr-light-gray: #acbef7; /* main text color */
-    --clr-gray-blue: #4864b7; /* secondary text color*/
-    --clr-light-gray-blue: #7fb4fe; /* secondary accented text color*/
-    --clr-indigo: #4f39f6; /* accented text color*/
+    --clr-light-gray: #d9e0f6; /* main text color */
+    --clr-gray-blue: #4b67bb; /* secondary text color*/
+    --clr-light-gray-blue: #86b8ff; /* secondary accented text color*/
+    --clr-indigo: #1e00ff; /* accented text color*/
 
     /* Text sizes */
     --size-xxs: 0.5rem;
