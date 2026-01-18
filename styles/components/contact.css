@@ -8,10 +8,12 @@
 }
 .contact_title {
     font-size: var(--size-2xl);
+    color: var(--clr-light-gray);
     text-transform: capitalize;
 }
 .contact_description {
     font-size: var(--size-sm);
+    color: var(--clr-light-gray-blue);
     max-width: 60ch;
 }
 .contact_btn {

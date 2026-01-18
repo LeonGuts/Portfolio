@@ -24,6 +24,4 @@ window.addEventListener('DOMContentLoaded', () => {
             document.body.style.overflowY = 'auto';
         });
     });
-
-    mobileNav;
 });

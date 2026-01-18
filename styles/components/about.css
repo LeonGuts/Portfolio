@@ -16,19 +16,21 @@
 .about_description {
     max-width: 60ch;
     font-size: var(--size-sm);
+    color: var(--clr-light-gray-blue);
     
 }
 .about_experience {
     display: flex;
     flex-direction: column;
     gap: 1em;    
+    color: var(--clr-light-gray-blue);
 }
 .about_hr {
     border-color: var(--clr-light-gray-blue);
 }
 .about_subtitle {
     font-size: var(--size-base);
-    color: var(--clr-light-gray);
+    color: var(--clr-gray-blue);
 }
 .about_ul_container {
     margin: 0;
@@ -43,10 +45,10 @@
     padding-left: 1em;
     padding-bottom: 1em;
     flex: 1;
+    color: var(--clr-light-gray-blue);
 }
 .about-list {
     font-size: var(--size-sm);
-    color: var(--clr-light-gray-blue);
 }
 .about_list:before {
     content: '';

@@ -1,5 +1,6 @@
 .footer_title {
     font-size: var(--size-sm);
+    color: var(--clr-ligth-gray);
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;

@@ -41,14 +41,12 @@
         border: 1px solid var(--clr-light-gray-blue);
         padding-top: 1.5em;
     }
-    .header_sun {
+    .header_theme_btn {
         display: block;
         width: var(--size-base);
         height: var(--size-base);
     }
-    .header_moon {
-        display: none;
-    }
+    
     .header_resume {
         font-size: var(--size-xs);
     }
@@ -66,13 +64,13 @@
         gap: 2em;
     }
     .header_link {
-        font-size: var(--size-base);
+        font-size: var(--size-sm);
     }
-    .header_sun {
-        display: flex;
+    .header_theme_btn {
         width: var(--size-2xl);
         height: var(--size-2xl);
     }
+    
     .header_resume {
         font-size: var(--size-sm);
     }

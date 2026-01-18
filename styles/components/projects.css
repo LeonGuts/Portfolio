@@ -15,12 +15,15 @@
 .projects_link {
     width: var(--size-2xl);
     height: var(--size-2xl);
+    color: var(--clr-indigo);
+
 }
 .project_img {
     width: 100%;
 }
 .project_name {
     font-size: var(--size-base);
+    color: var(--clr-gray-blue);
     margin: 1rem 0;
 }
 .project_description1 {
@@ -115,13 +118,16 @@
     .project_subname {
         display: block;
         font-size: var(--size-base);
+        color: var(--clr-gray-blue);
     }
     .project_description1 {
         font-size: var(--size-xs);
+        color: var(--clr-light-gray-blue);
         margin: 1em 0;
     }
     .project_description2 {
         font-size: var(--size-xs);
+        color: var(--clr-light-gray-blue);
         margin: 1em 0;
     }
     .project_btn {

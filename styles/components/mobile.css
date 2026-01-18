@@ -37,13 +37,10 @@
     border: 1px solid var(--clr-light-gray-blue);
     padding-right: 1.5em;
 }
-.mobile_sun {
+.mobile_theme_btn {
     display: block;
     width: var(--size-xl);
     height: var(--size-xl);
-}
-.mobile_moon {
-    display: none;
 }
 .mobile_nav_btn {
     font-size: var(--size-sm);

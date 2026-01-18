@@ -1,11 +1,11 @@
 :root {
-    /* Dark mode */
+    
     --clr-dark-blue: #07234d; /* main color */
-    --clr-blue-gray: #183c7a; /* secondary color */
+    --clr-blue-gray: #91a5c6; /* secondary color */
     --clr-cyanic: #64ffda; /* accented color */
-    --clr-light-gray: #d9e0f6; /* main text color */
-    --clr-gray-blue: #4b67bb; /* secondary text color*/
-    --clr-light-gray-blue: #86b8ff; /* secondary accented text color*/
+    --clr-light-gray: #b9c0db; /* main text color */
+    --clr-gray-blue: #949dc0; /* secondary text color*/
+    --clr-light-gray-blue: #82b4fa; /* secondary accented text color*/
     --clr-indigo: #1e00ff; /* accented text color*/
 
     /* Text sizes */
@@ -33,6 +33,24 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+.light_mode {    
+    --clr-dark-blue: #9ec5ff; /* main color */
+    --clr-blue-gray: #555188; /* secondary color */
+    --clr-cyanic: #1f7d67; /* accented color */
+    --clr-light-gray: #083cd6; /* main text color */
+    --clr-gray-blue: #102870; /* secondary text color*/
+    --clr-light-gray-blue: #283951; /* secondary accented text color*/
+    --clr-indigo: #9189d3; /* accented text color*/
+
+    /* background-color: var(--clr-sky-light); */
+    /* color: var(--clr-dark-blue-light); */
+}
+
+.hiden {
+    display: none;
+    transition: 0.3s;
 }
 
 body {
